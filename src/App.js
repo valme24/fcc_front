@@ -1,14 +1,15 @@
-import Header  from "./comps/header";
-import Footer from "./comps/footer";
-import Food from "./food";
+import Card from './comps/card.jsx';
 function App() {
   
   return (
-    <>
-   <Header/>
-   <Food/>
-   <Footer/>
-   </>
+   <><Card/>
+   <Card/>
+   <Card/>
+   <Card/>
+   <Card/>
+   <Card/></>
+  
+  
   );
 }
 
